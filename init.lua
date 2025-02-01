@@ -2,6 +2,7 @@
 require("config.lazy")
 require("config.keymaps")
 require("config.blankline")
+require("config.autocmds")
 
 vim.opt.expandtab = true -- Usa espacios en lugar de tabuladores
 vim.opt.shiftwidth = 4 -- Número de espacios por indentación
