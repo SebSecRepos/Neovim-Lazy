@@ -3,7 +3,7 @@ require("config.lazy")
 require("config.keymaps")
 require("config.blankline")
 require("config.autocmds")
-
+require'lspconfig'.clangd.setup{}
 vim.opt.expandtab = true -- Usa espacios en lugar de tabuladores
 vim.opt.shiftwidth = 4 -- Número de espacios por indentación
 vim.opt.tabstop = 4 -- Ancho de tabulador
